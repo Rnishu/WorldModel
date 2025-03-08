@@ -1,3 +1,11 @@
-build/
-install/
-log/
+# Ignore all build, install, log, and .vscode directories in any subdirectory
+**/build/
+**/install/
+**/log/
+**/.vscode/
+
+# If you also want to ignore hidden directories with similar names
+**/.build/
+**/.install/
+**/.log/
+
